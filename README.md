@@ -4,7 +4,7 @@
 [image2]: ./UKF_Dataset2.png
 
 
-In this project, an Unscented Kalman Filter (UKF) technique is utilize to estimate the state of a moving object given the noisy lidar and radar measurements. The spec for the root mean square error (rmse) of all 4 states [px, py, vx, vy] is given by [.09, .10, .40, .30] for Dataset 1. The UKF is implemented in c++. The details of UKF algorithm are given in the src folder:
+In this project, an Unscented Kalman Filter (UKF) technique is utilized to estimate the state of a moving object given the noisy lidar and radar measurements. The spec for the root mean square error (rmse) of all 4 states [px, py, vx, vy] is given by [.09, .10, .40, .30] for Dataset 1. The UKF is implemented in c++. The details of UKF algorithm are given in the src folder:
 
 Given the two datasets, the rmse values are:
 
